@@ -1,0 +1,27 @@
+/* this make sure that every element inherits the parent box-sizing type*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* setting the root font size to be 62.5% of default browser font size.
+   This enables the web page to adapt according to default browser font size(even if user changes the default browser font size)
+   and enables author to use "rem" in the complete document for calculations.
+   10px beacuse it is easy to calculate the fraction. */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* by default all the block display are border-box*/
+  box-sizing: border-box;
+  /* Smoothen font which is better normal display of the font*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 3rem;
+}
+
+nav ul {
+  list-style: none;
+}
