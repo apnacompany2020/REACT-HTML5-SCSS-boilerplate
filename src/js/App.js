@@ -1,20 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function App() {
-  return (
-    <React.StrictMode>
-      <header>
-      </header>
-
-      <main>
-      </main>
-
-      <footer>
-      </footer>
-    
-
-    </React.StrictMode>
-  );
+  return <div></div>;
 }
 
 export default App;
